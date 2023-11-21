@@ -97,19 +97,19 @@ int DeleteMenu() {
 void Delete() {
     switch (DeleteMenu()) {
         case 1:
-            notwo = 0, amount = amount - 50, count--;
+            notwo = notwo - 1, amount = amount - 50, count--;
             printf("\nEntry Deleted!");
             break;
         case 2:
-            nothree = 0, amount = amount - 100, count--;
+            nothree = nothree - 1, amount = amount - 100, count--;
             printf("\nEntry Deleted!");
             break;
         case 3:
-            nofour = 0, amount = amount - 150, count--;
+            nofour = nofour - 1, amount = amount - 150, count--;
             printf("\nEntry Deleted!");
             break;
         case 4:
-            nosix = 0, amount = amount - 200, count--;
+            nosix = nosix - 1, amount = amount - 200, count--;
             printf("\nEntry Deleted!");
             break;
         case 5:
